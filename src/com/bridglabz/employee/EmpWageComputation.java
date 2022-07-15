@@ -4,18 +4,6 @@ import static java.lang.Math.random;
 
 public class EmpWageComputation {
 
-<<<<<<< HEAD
-    public static void main(String[] args)
-    {
-        System.out.println("Welcome to Employee Wage Computation");
-        int randomCheck = (int) Math.round(random());
-        if (1 == randomCheck) {
-            System.out.println("Employee is present");
-        } else {
-            System.out.println("Employee is absent");
-        }
-    }
-=======
     final static int WAGE_PER_HOUR = 20;
     final static int FULL_Day_HOUR = 8;
 
@@ -33,6 +21,5 @@ public class EmpWageComputation {
         }
         System.out.println("Employee wage per day is :" + dailyEmpWage);
     }
-    
->>>>>>> a75afd8 (Added daily employee wage)
+
 }

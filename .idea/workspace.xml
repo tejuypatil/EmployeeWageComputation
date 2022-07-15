@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Added daily employee wage" />
+    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Added daily employee wage">
+      <change beforePath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657906425906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added daily employee wage">
+      <created>1657907370600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657907370600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
