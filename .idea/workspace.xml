@@ -63,6 +63,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657904792393</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added attendance of employee">
+      <created>1657906006361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657906006361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +83,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added attendance of employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added attendance of employee" />
   </component>
 </project>
