@@ -3,7 +3,6 @@ package com.bridglabz.employee;
 import static java.lang.Math.random;
 
 public class EmpWageComputation {
-
     final static int WAGE_PER_HOUR = 20;
     final static int FULL_Day_HOUR = 8;
     final static int PART_TIME_HOUR = 4;
@@ -12,22 +11,23 @@ public class EmpWageComputation {
         System.out.println("Welcome to Employee Wage Computation");
 
         int dailyEmpWage;
-        int randomCheck = (int) Math.round(random()*2);
+        int randomCheck = (int) Math.round(random() * 2);
         int partTimeEmpWage;
-        if (1 == randomCheck)
-        {
-            System.out.println("Employee is present Full time");
-            dailyEmpWage= WAGE_PER_HOUR * FULL_Day_HOUR;
-            System.out.println("Employee wage is :"+dailyEmpWage);
+
+        switch (randomCheck) {
+            case 1:
+                System.out.println("Employee is present Full time");
+                dailyEmpWage = WAGE_PER_HOUR * FULL_Day_HOUR;
+                System.out.println("Employee wage is :" + dailyEmpWage);
+                break;
+            case 2:
+                System.out.println("Employee is present Part Time");
+                partTimeEmpWage = WAGE_PER_HOUR * PART_TIME_HOUR;
+                System.out.println("Employee wage is :" + partTimeEmpWage);
+                break;
+            default:
+                System.out.println("Employee is absent");
         }
-        else if (randomCheck > 1) {
-            System.out.println("Employee is present Part Time");
-            partTimeEmpWage = WAGE_PER_HOUR * PART_TIME_HOUR;
-            System.out.println("Employee wage is :"+partTimeEmpWage);
-        }
-        else
-        {
-            System.out.println("Employee is absent");
-        }
+
     }
 }
