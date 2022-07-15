@@ -8,9 +8,7 @@ public class EmpWageComputation {
     final static int PART_TIME_HOUR = 4;
     final static int WORKING_DAY = 20;
 
-    public static void main(String[] args) {
-        System.out.println("Welcome to Employee Wage Computation");
-
+   public void calEmpWagePerMonth(){
         int dailyEmpWage;
         int workingHours = 0;
         int partTimeEmpWage;
@@ -51,4 +49,9 @@ public class EmpWageComputation {
         System.out.println("total employee wage is:"+totalWage);
     }
 
+    public static void main(String[] args) {
+        System.out.println("Welcome to Employee Wage Computation");
+        EmpWageComputation employee = new EmpWageComputation();
+        employee.calEmpWagePerMonth();
+    }
 }
