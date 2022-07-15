@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Added daily employee wage">
-      <change beforePath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" afterDir="false" />
-    </list>
+    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Merged" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added attendance of employee" />
     <MESSAGE value="Added daily employee wage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added daily employee wage" />
+    <MESSAGE value="Merged" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged" />
   </component>
 </project>
