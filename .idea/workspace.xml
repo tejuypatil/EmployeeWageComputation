@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Added Program For UC6">
+    <list default="true" id="fbd7f99e-4eee-4e77-9377-8fc4d539867b" name="Changes" comment="Corrected Program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglabz/employee/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageComputation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridglabz/employee/EmpWageBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657911265201</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Corrected Program">
+      <created>1658553761586</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658553761586</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +146,7 @@
     <MESSAGE value="Added Program by using switch case" />
     <MESSAGE value="Added Program For UC5" />
     <MESSAGE value="Added Program For UC6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program For UC6" />
+    <MESSAGE value="Corrected Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Program" />
   </component>
 </project>

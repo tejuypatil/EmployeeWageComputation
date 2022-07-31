@@ -3,13 +3,15 @@ package com.bridglabz.employee;
 import static java.lang.Math.random;
 
 public class EmpWageBuilder {
-    final static int NOT_WORKING=0;
+
     final static int FULL_TIME=1;
     final static int PART_TIME=2;
     public String company;
     public int empRatePerHr;
     public int numOfWorkingDays;
     public int maxWorkingHrs;
+
+    private int totalEmpWage;
     public EmpWageBuilder(String company,int empRatePerHr,int numOfWorkingDays,int maxWorkingHrs)
     {
         this.company=company;
@@ -44,6 +46,11 @@ public class EmpWageBuilder {
         }
         totalEmpWage = totalEmpHrs * empRatePerHr;
         System.out.println("Company: " + company + " Total Employee Wage: " + totalEmpWage);
+    }
+
+    @Override
+    public String toString(){
+        return "Total EmpWage for Company:"+company+ "is: "+totalEmpWage;
     }
 
     }
